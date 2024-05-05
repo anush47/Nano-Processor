@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun 11 23:38:47 2023
+# Process ID: 14660
+# Current directory: C:/Users/Anushanga/Downloads/Nano-Processor/Nano-Processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8912 C:\Users\Anushanga\Downloads\Nano-Processor\Nano-Processor\Nano-Processor.xpr
+# Log file: C:/Users/Anushanga/Downloads/Nano-Processor/Nano-Processor/vivado.log
+# Journal file: C:/Users/Anushanga/Downloads/Nano-Processor/Nano-Processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Anushanga/Downloads/Nano-Processor/Nano-Processor/Nano-Processor.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Jun 11 23:39:16 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Anushanga/Downloads/Nano-Processor/Nano-Processor/Nano-Processor.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Jun 11 23:43:05 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Anushanga/Downloads/Nano-Processor/Nano-Processor/Nano-Processor.runs/synth_1/runme.log
+[Sun Jun 11 23:43:05 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Anushanga/Downloads/Nano-Processor/Nano-Processor/Nano-Processor.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 11 23:46:54 2023...
